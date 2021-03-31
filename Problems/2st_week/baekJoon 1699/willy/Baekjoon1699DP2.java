@@ -6,6 +6,13 @@ import java.io.InputStreamReader;
 
 public class Baekjoon1699DP2  {
 	public static void main(String args []) throws IOException  {
+		
+		// 어려웠던 점 : 점화식을 찾는 과정이 매우 오래걸림. 규칙을 찾는거 이외에 구현은 어렵지 않음
+		// 문제 접근 : 1부터 N까지, 답을 찾아가며 앞의 답을 이용한다.
+		// N의 값을 구하기 위해서는 우선 가장 큰 원소를 어떤 것으로 할지를 정해야 한다.
+		
+		
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int N = Integer.parseInt(br.readLine());
